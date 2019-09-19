@@ -1,5 +1,7 @@
 # Image-and-Sound-Steganography
-A python script containing functions for embedding hidden data in images and sound.
+A python script containing functions for embedding hidden data in images and sound.  
+Requires Pillow: https://pypi.org/project/Pillow/
+and pyaudio: https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio
 
 Contains the following capabilities:
 
