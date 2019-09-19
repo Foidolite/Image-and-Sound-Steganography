@@ -6,10 +6,9 @@ Contains the following capabilities:
 1. Secret Image within Another Image's Least Significant Bits (ImgImgE/ImgImgD):
 
 Using the ImgImgE command, an image can be bitcrushed and stored within 1-8 of the least significant bits of another image.
-As an example, say we want to hide this image (secret.png):
-![alt text](stegoTool/imgimg_example/secret.png)
-
-within this one (base.png):
+As an example, say we want to hide this image (secret.png):<br/>
+![alt text](stegoTool/imgimg_example/secret.png)<br/>
+within this one (base.png):<br/>
 ![alt text](stegoTool/imgimg_example/base.png)
 
 Using the following command: "python stego.py ImgImgE base.png secret.png loaded.png 1 7" with stego.py in the same folder as base.png and secret.png, we can embed secret.png within the least significant bit of base.png:
