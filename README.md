@@ -42,7 +42,7 @@ For example, see the anyimg example folder. There, we have our familiar base ima
 One, secretLamp.obj, is a 3d model of a lamp. The other, secret.txt, is a list of the 1000 most common English words listed alphabetically.
 We can hide the lamp within the RGB channels of the image using:  
 "python stego.py AnyImg secretLamp.obj base.png temp.png 1 7"  
-and then hide the text within the Alpha channel of the image using:
+and then hide the text within the Alpha channel of the image using:  
 "python stego.py AnyImg secret.txt temp.png loaded.png 1 8"  
 Then extract both using:  
 "python stego.py ImgAny loaded.png outLamp.obj 1 7"  
