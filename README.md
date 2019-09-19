@@ -48,4 +48,4 @@ Then extract both using:
 "python stego.py ImgAny loaded.png outLamp.obj 1 7"  
 "python stego.py ImagAny loaded.png out.txt 1 8"
 
-In addition, and xor key can be used as an optional argument at the end to encrypt the bits of your file and prevent other steganography tools from picking up on the data.
+In addition, an xor key can be used as an optional argument at the end to encrypt the bits of your file and prevent other steganography tools from picking up on the data.
